@@ -9,7 +9,8 @@
     "eject": "react-scripts eject",
     "precommit": "lint-staged",
     "cm": "git-cz",
-    "commitmsg": "commitlint -e"
+    "commitmsg": "commitlint -e",
+    "watch": "node watch.js"
   },
   "lint-staged": {
     "{src/**/*.{json,js},*.{json,js,md}}": ["prettier --write", "git add"]
